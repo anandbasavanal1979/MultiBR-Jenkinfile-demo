@@ -17,10 +17,13 @@ pipeline{
       steps{
           echo "deploy application"
 	  }
-
-      
     }
 	  
+	stage("this is application"){
+      steps{
+          echo "application"
+	  }
+    }  
 	  
   }
 }
