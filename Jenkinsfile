@@ -20,5 +20,11 @@ pipeline{
 
       
     }
+	  
+	  stage ("tomcat war file deploy"){
+		  steps{
+		  echo "deploing war file"
+		  }
+	  }
   }
 }
