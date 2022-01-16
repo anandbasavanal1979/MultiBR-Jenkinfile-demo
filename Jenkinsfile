@@ -13,12 +13,12 @@ pipeline{
         }
       }
 
-      //stage("this is deploying"){
-      //steps{
-        //  echo "deploy application"
-	  //}
+      stage("this is deploying"){
+      steps{
+          echo "deploy application"
+	  }
 
      
-    //}
+    }
   }
 }
