@@ -6,6 +6,7 @@ pipeline{
          echo "this is code build"
         
       }
+    }
       stage("build"){
         steps {
         echo "this is the maven"
@@ -17,7 +18,7 @@ pipeline{
           echo "deploy application"
 	  }
 
-      }
+      
     }
   }
 }
