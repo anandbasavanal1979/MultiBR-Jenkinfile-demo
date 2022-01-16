@@ -11,6 +11,13 @@ pipeline{
         echo "this is the maven"
         }
       }
+
+      stage("this is deploying"){
+      steps{
+          echo ""deploy application"
+	  }
+
+      }
     }
   }
 }
