@@ -8,6 +8,7 @@ pipeline {
 		   steps{
                sh "mvn package"    		   
 		   }
+	   }
 		   
 		   stage("sonarQube analysis"){
 		         when {
