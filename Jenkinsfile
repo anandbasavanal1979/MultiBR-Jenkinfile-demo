@@ -40,7 +40,7 @@ pipeline {
 				 }
 		   }
 		   }  
-		   stage("dep 2 Nexus"){
+		   stage("dep to Nexus"){
 		        when {
 				branch "develop"
 				}
